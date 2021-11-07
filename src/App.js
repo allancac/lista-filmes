@@ -1,13 +1,10 @@
 import { Fragment } from 'react';
-import './App.css';
 import ApplicationRoutes from './ApplicationRoutes';
-
+import Header from './components/Header'
 function App() {
   return (
     <Fragment>
-      <header>
-
-      </header>
+      <Header/>
       <ApplicationRoutes/>
     </Fragment>
 
